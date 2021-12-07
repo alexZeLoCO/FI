@@ -1,0 +1,22 @@
+Parte 1: Condiciones
+Ejercicio 1: El programa recibe una nota. Hacer un algoritmo que devuelva una de las siguientes palabras en función de cuál sea la nota:
+	"Suspenso" 	nota en [0,5)
+	"Aprobado" 	nota en [5,7)
+	"Notable"  	nota en [7,9)
+	"Sobresaliente" nota en [9,10]
+
+Ejemplo de salida:
+	Introduzca nota: 8
+	Notable
+
+
+Ejercicio 2: El programa recibe dos valores numéricos. Hacer un algoritmo que devuelva la palabra correcta en función de los valores según se muestra la siguiente tabla. El primer valor corresponde a la fila y el segundo a la columna. Tabla:
+		1	2	3
+	1     "Alfa" "Beta"  "Lambda"
+	2     "Beta" "Lambda" "Alfa"
+	3    "Lambda" "Alfa"  "Beta"
+
+Ejemplo de salida:
+	Introduzca primer valor: 1
+	Introduzca segundo valor: 2
+	"Beta"

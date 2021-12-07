@@ -1,0 +1,54 @@
+Los ejercicios siguientes utilizan bucles, condiciones y subrutinas.
+
+Ejericio 1: Hacer una subrutina que calcule el factorial de un número n dado. Llamar a la subrutina y comprobar que el resultado es correcto.
+
+Ejemplo de salida:
+	Introduzca número: 4
+	El factorial de 5 es: 24
+
+
+Ejercicio 2: Hacer una subrutina que devuelva true si un número es primo, devuelve false si no lo es. 
+
+Ejemplo de salida:
+	Introduzca número: 7
+	El número es primo true.
+
+
+Ejercicio 3: Utilizando la subrutina anterior hacer un programa que muestre por pantalla todos los números primos desde 0 hasta un número introducido por el usuario.
+
+Ejemplo de salida:
+	Introduzca un número: 20
+	Los números primos hasta 20 son:
+	1 - 2 - 3 - 5 - 7 - 9 - 11 - 13 - 17 - 19
+(NOTA: MOSTRAR LA SALIDA CON EL MISMO FORMATO)
+
+
+Ejercicio 4: Hacer una subrutina que calcule el producto escalar de 2 vectores. (Producto escalar (x,y)·(a,b)=x*a+y*b
+
+Ejemplo de salida:
+	Introduzca dos coordenadas de un vector separadas por espacio: 1 1
+	Introduzca dos coordenadas de otro vector separadas por espacio: 2 2
+	El producto escalar es: 4
+
+
+Ejercicio 5: Utilizando la subrutina anterior, hacer un programa que escriba true si son ortogonales y false si no. (vector1 ortogonal a vector2 si y sólo si productoEscalar(vector1,vector2) = 0.
+
+Ejemplo de salida:
+	Introduzca coordenadas de un vector separadas por espacio: 1 1
+	Introduzca coordenadas de un vector separadas por espacio: -1 1
+	Los vectores son ortogonales true.
+
+
+Ejercicio 6: Hacer una subrutina que calcule el módulo de un vector. (Módulo de un vector (x,y): sqrt(x^2+y^2))
+
+Ejemplo de salida:
+	Introduzca coordenadas de un vector separadas por espacios: 1 2
+	Módulo: sqrt(5)
+
+
+Ejercicio 7: Utilizando las subrutinas del ejercicio 4 y 6, hacer una subrutina que calcule el ángulo entre dos vectores. Ángulo=Arccos(producto_Escalar(vector1,vector2)/(módulo(vector1)*módulo(vector2))
+
+Ejemplo de salida:
+	Introduzca dos coordenadas de un vector separadas por espacio: 1 1
+	Introduzca dos coordenadas de otro vector separadas por espacio: 2 2
+	Ángulo: </Lo que salga>
